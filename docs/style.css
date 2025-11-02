@@ -1,27 +1,105 @@
+/* --- Styles globaux --- */
 body {
   font-family: 'Poppins', sans-serif;
-  background-color: #fff6f9;
-  color: #4a2c3a;
   margin: 0;
-  text-align: center;
+  padding: 0;
+  background: #fdf6f0;
+  color: #5a3825;
 }
 
 header {
-  background-color: #e0a6b6;
-  color: white;
-  padding: 20px 0;
+  background: #fdebd0;
+  padding: 20px;
+  text-align: center;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+header h1 {
+  margin: 0;
+  font-size: 2em;
 }
 
 nav a {
-  color: white;
   margin: 0 15px;
   text-decoration: none;
-  font-weight: bold;
+  color: #5a3825;
+  font-weight: 500;
 }
 
-footer {
-  background-color: #e0a6b6;
+nav a:hover {
+  color: #b36b3c;
+}
+
+/* --- Section principale --- */
+main {
+  text-align: center;
+  padding: 40px 20px;
+}
+
+main h2 {
+  margin-bottom: 15px;
+}
+
+main p {
+  font-size: 1.1em;
+  margin-bottom: 25px;
+}
+
+button {
+  background: #b36b3c;
   color: white;
-  padding: 10px 0;
+  border: none;
+  padding: 12px 25px;
+  border-radius: 8px;
+  font-size: 1em;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #9b5630;
+}
+
+/* --- Galerie de parfums --- */
+.collection {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 25px;
+  padding: 30px 10px;
+}
+
+.parfum {
+  width: 220px;
+  text-align: center;
+  background: rgba(255, 255, 255, 0.95);
+  padding: 15px;
+  border-radius: 15px;
+  box-shadow: 0 6px 20px rgba(0,0,0,0.1);
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.parfum img {
+  width: 100%;
+  height: auto;
+  border-radius: 12px;
+  margin-bottom: 10px;
+}
+
+.parfum p {
+  font-weight: 500;
+  font-size: 1em;
+}
+
+.parfum:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 25px rgba(0,0,0,0.15);
+}
+
+/* --- Footer --- */
+footer {
+  text-align: center;
+  padding: 20px;
+  background: #fdebd0;
+  margin-top: 40px;
   font-size: 0.9em;
 }
