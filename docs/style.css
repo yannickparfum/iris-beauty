@@ -104,3 +104,9 @@ footer {
   font-size: 0.9em;
 }
 /* update temporaire pour forcer Git */
+
+.contact {
+    margin-top: 40px;
+    font-size: 0.95em;
+    color: #5a3825;
+}

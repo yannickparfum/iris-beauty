@@ -1,107 +1,78 @@
-<!DOCTYPE html>
-<html lang="fr">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Iris Beauty</title>
-  <link rel="stylesheet" href="style.css">
-</head>
-<body>
-  <header>
-    <h1>Iris Beauty</h1>
-    <nav>
-      <a href="#">Accueil</a>
-      <a href="#">Collection</a>
-      <a href="#">Contact</a>
-    </nav>
-  </header>
+/* Styles globaux */
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #fff7f0;
+    color: #5a3825;
+    margin: 0;
+    padding: 0;
+}
 
-  <main>
-    <h2>Bienvenue dans l’univers d’Iris Beauty</h2>
-    <p>Découvrez nos fragrances uniques, inspirées par la nature et la beauté du monde.</p>
+/* En-tête */
+header {
+    background-color: #f8e5d6;
+    padding: 20px;
+    text-align: center;
+}
 
-    <div class="collection">
-      <div class="parfum">
-        <img src="images/IMG-20210424-WA0035.jpg" alt="IMG-20210424-WA0035.jpg">
-        <p>IMG-20210424-WA0035.jpg</p>
-      </div>
-      <div class="parfum">
-        <img src="images/IMG-20220823-WA0008 (1).jpg" alt="IMG-20220823-WA0008 (1).jpg">
-        <p>IMG-20220823-WA0008 (1).jpg</p>
-      </div>
-      <div class="parfum">
-        <img src="images/IMG-20220824-WA0003.jpg" alt="IMG-20220824-WA0003.jpg">
-        <p>IMG-20220824-WA0003.jpg</p>
-      </div>
-      <div class="parfum">
-        <img src="images/IMG-20220824-WA0009 (1).jpg" alt="IMG-20220824-WA0009 (1).jpg">
-        <p>IMG-20220824-WA0009 (1).jpg</p>
-      </div>
-      <div class="parfum">
-        <img src="images/IMG-20220823-WA0009.jpg" alt="IMG-20220823-WA0009.jpg">
-        <p>IMG-20220823-WA0009.jpg</p>
-      </div>
-      <div class="parfum">
-        <img src="images/IMG-20220823-WA0014.jpg" alt="IMG-20220823-WA0014.jpg">
-        <p>IMG-20220823-WA0014.jpg</p>
-      </div>
-      <div class="parfum">
-        <img src="images/IMG-20220823-WA0015.jpg" alt="IMG-20220823-WA0015.jpg">
-        <p>IMG-20220823-WA0015.jpg</p>
-      </div>
-      <div class="parfum">
-        <img src="images/IMG-20220824-WA0003 (1).jpg" alt="IMG-20220824-WA0003 (1).jpg">
-        <p>IMG-20220824-WA0003 (1).jpg</p>
-      </div>
-      <div class="parfum">
-        <img src="images/IMG-20220824-WA0006.jpg" alt="IMG-20220824-WA0006.jpg">
-        <p>IMG-20220824-WA0006.jpg</p>
-      </div>
-      <div class="parfum">
-        <img src="images/IMG-20210424-WA0025.jpg" alt="IMG-20210424-WA0025.jpg">
-        <p>IMG-20210424-WA0025.jpg</p>
-      </div>
-      <div class="parfum">
-        <img src="images/IMG-20210424-WA0026.jpg" alt="IMG-20210424-WA0026.jpg">
-        <p>IMG-20210424-WA0026.jpg</p>
-      </div>
-      <div class="parfum">
-        <img src="images/IMG-20220824-WA0009.jpg" alt="IMG-20220824-WA0009.jpg">
-        <p>IMG-20220824-WA0009.jpg</p>
-      </div>
-      <div class="parfum">
-        <img src="images/IMG-20220824-WA0013 (1).jpg" alt="IMG-20220824-WA0013 (1).jpg">
-        <p>IMG-20220824-WA0013 (1).jpg</p>
-      </div>
-      <div class="parfum">
-        <img src="images/IMG-20220824-WA0013.jpg" alt="IMG-20220824-WA0013.jpg">
-        <p>IMG-20220824-WA0013.jpg</p>
-      </div>
-      <div class="parfum">
-        <img src="images/IMG-20220824-WA0009 (2).jpg" alt="IMG-20220824-WA0009 (2).jpg">
-        <p>IMG-20220824-WA0009 (2).jpg</p>
-      </div>
-      <div class="parfum">
-        <img src="images/IMG-20220824-WA0013 (2).jpg" alt="IMG-20220824-WA0013 (2).jpg">
-        <p>IMG-20220824-WA0013 (2).jpg</p>
-      </div>
-      <div class="parfum">
-        <img src="images/IMG-20220824-WA0013 (3).jpg" alt="IMG-20220824-WA0013 (3).jpg">
-        <p>IMG-20220824-WA0013 (3).jpg</p>
-      </div>
-      <div class="parfum">
-        <img src="images/IMG-20220908-WA0000.jpg" alt="IMG-20220908-WA0000.jpg">
-        <p>IMG-20220908-WA0000.jpg</p>
-      </div>
-      <div class="parfum">
-        <img src="images/IMG-20220908-WA0020.jpg" alt="IMG-20220908-WA0020.jpg">
-        <p>IMG-20220908-WA0020.jpg</p>
-      </div>
-    </div>
-  </main>
+header h1 {
+    margin: 0;
+    font-size: 2.5em;
+}
 
-  <footer>
-    © 2025 Iris Beauty — Tous droits réservés
-  </footer>
-</body>
-</html>
+header nav a {
+    margin: 0 15px;
+    text-decoration: none;
+    color: #5a3825;
+    font-weight: 500;
+}
+
+header nav a:hover {
+    color: #b85c38;
+}
+
+/* Section principale */
+main {
+    padding: 20px;
+    text-align: center;
+}
+
+/* Galerie */
+.collection {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 30px;
+}
+
+.parfum {
+    width: 200px;
+    text-align: center;
+    background: rgba(255, 255, 255, 0.9);
+    padding: 15px;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+}
+
+.parfum img {
+    width: 100%;
+    border-radius: 8px;
+}
+
+/* Pied de page */
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #f8e5d6;
+    margin-top: 40px;
+}
+
+
+
+
+<section class="contact">
+  <h2>Contactez-nous</h2>
+  <p>📞 Téléphone : 07.53.79.35.77</p>
+  <p>✉ Email : contact@irisbeauty.com</p>
+  <p>🏠 Adresse : 19 Rue des preccheurs,Poissy</p>
+</section>
